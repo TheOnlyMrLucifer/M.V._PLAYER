@@ -1,6 +1,6 @@
-<p align="center"><a href="https://t.me/Miss_Akshi2_0_bot"><img src="https://github.com/darkphoenix2601/M.V._PLAYER/blob/main/driver/Akshilogo.png"></a></p>
+<p align="center"><a href="https://t.me/Miss_AkshiV1_Bot"><img src="https://github.com/darkphoenix2601/M.V._PLAYER/blob/main/driver/Akshilogo.png"></a></p>
 <p align="center">
-    <br><b>Video Stream is an Advanced Telegram Bot that's allow you to play Video & Music on Telegram Group Video Chat</b><br>
+    <<br><b>Video Stream is an Advanced Telegram Bot that's allow you to play Video & Music on Telegram Group Video Chat</b><br>
 </p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
@@ -18,83 +18,81 @@
     <a href="https://github.com/darkphoenix2601/M.V._PLAYER/blob/master/LICENSE" alt="GPLv3 license"> <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" /> </a>
     <a href="https://t.me/Miss_Akshi_updates" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
     <a href="https://discord.gg/nDD97pXBzK" alt="Discord"> <img src="https://img.shields.io/discord/465068856692441090?style=flat&logo=discord&color=blue" /> </a>
-    <a href="" alt="https://github.com/darkphoenix2601"> <img src="https://img.shields.io/badge/Built%20by-Darkphoenix-red" /> </a>
+    <a href="" alt="darkphoenix2601"> <img src="https://img.shields.io/badge/Built%20by-Darkphoenix-red" /> </a>
     </p>
 
 ## 📊 Stats
 [![CodeFactor](https://www.codefactor.io/repository/github/darkphoenix2601/m.v._player/badge)](https://www.codefactor.io/repository/github/darkphoenix2601/m.v._player)
-## 🧪 Get `SESSION_NAME` from below:
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@Darkphoenix2601/Pyrogram-String-Session) ``TYPE P ``
+## Deployment
+Read the [Docs](https://levina.gitbook.io/videostreambot/deployment/requirements) for Detailed Information and Setup Guide on deploying Bot.
 
-## 🎭 Preview
-<p align="center">
-  <img src="https://telegra.ph/file/e655ecf0b489586c61d03.png">
-</p>
+> Click on buttons to Expand!
+<details>
+<summary><b>🔗 Requirements</b></summary>
+<br>
 
-## ✨ Features
-- Music & Video stream support
-- MultiChat support
-- Playlist & Queue support
-- Skip, Pause, Resume, Stop feature
-- Music & Video downloader feature
-- Inline Search support
-- YouTube direct search support
-- YouTube/Local/Live/m3u8 stream support
-- Inline Search support
-- Control With Button support
-- Volume Control
-- Userbot Auto Join
-- Direct Updater
+- [Python3.9](https://www.python.org/downloads/release/python-390/)
+- [Telegram API Key](https://docs.pyrogram.org/intro/setup#api-keys)
+- [Telegram Bot Token](https://t.me/botfather)
+- [MongoDB URL](https://telegra.ph/How-to-Get-mongodb-url-02-18)
+- [Pyrogram Session String](https://levina.gitbook.io/videostreambot/deployment/string-session)
+    
+</details>
 
-## 🛠 Commands:
-| Command | Description |
-| ------ | ------ |
-| `/mplay (query)` | play music from youtube |
-| `/stream (radio link)` | stream a live streaming music |
-| `/vplay (query)` | play video from youtube |
-| `/vstream (live link)` | play video live streaming video |
-| `/pause` | pause the streaming (admin only) |
-| `/resume` | resume the streaming (admin only) |
-| `/skip` | switch to next stream (admin only) |
-| `/stop` | end the streaming (admin only) |
-| `/vmute` | for mute the userbot on voice chat |
-| `/vunmute` | for unmute the userbot on voice chat |
-| `/volume 1/200` | adjust the volume of userbot (userbot must be admin) |
-| `/playlist` | show you all the current stream list |
-| `/song (query)` | download music from youtube |
-| `/video (query)` | download video from youtube |
-| `/userbotjoin` | invite the userbot to join group (admin only) |
-| `/userbotleave` | instruct userbot to leave the group (admin only) |
-| `/leaveall` | order the userbot to leave from all group (sudo only) |
-| `/update` | update your bot directly without leaving telegram (sudo only) |
-| `/restart` | restart your bot directly without leaving telegram (sudo only) |
-| `/clean` | clean all raw files |
-| `/rmd` | clean all downloaded files |
-## Heroku Deployment 💜
-The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
+<details>
+<summary><b>🔗 Session String</b></summary>
+<br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://mvplayer.rf.gd/?i=1)
+> You'll need a [API_ID](https://levina.gitbook.io/videostreambot/vars/vars-information#1.-api_id) & [API_HASH](https://levina.gitbook.io/videostreambot/vars/vars-information#2.-api_hash) in order to generate pyrogram session string. 
+> Always remember to use good API combo else your account could be deleted.
 
-## VPS Deployment 📡
-Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
+<h4> Generate Session via Repl.it: </h4>    
+<p><a href="https://replit.com/@Darkphoenix2601/Pyrogram-String-Session"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
 
-```sh
-sudo apt update && apt upgrade -y
-sudo apt install git curl python3-pip ffmpeg -y
-pip3 install -U pip
-curl -sL https://deb.nodesource.com/setup_16.x | bash -
-sudo apt-get install -y nodejs
-npm i -g npm
-git clone https://github.com/darkphoenix2601/M.V._PLAYER/ # clone the repo.
-cd video-stream
-pip3 install -U -r requirements.txt
-cp example.env .env # use vim to edit ENVs
-vim .env # fill up the ENVs (Steps: press i to enter in insert mode then edit the file. Press Esc to exit the editing mode then type :wq! and press Enter key to save the file).
-python3 main.py # run the bot.
+</details>
 
-# continue the host with screen or anything else, thanks for reading.
+<details>
+<summary><b>🔗 Deploy to Heroku</b></summary>
+<br>
+
+> Heroku has blacklisted this repository, That's why you get policy error message while pressing the Deploy Button. So the solution is you'll need to Fork this repo first and tap the Deploy Button from your forked repo. Click the fork button in the upper right corner next to the star button to fork this Repo.
+
+<h4>Click the button below to deploy Bot on Heroku!</h4>    
+<p><a href="https://mvplayer.rf.gd/"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+
+</details>
+
+<details>
+<summary><b>🔗 Deploy to VPS</b></summary>
+<br>
+
+> Checkout the [Docs](https://dark-phoenix-1.gitbook.io/untitled/) for Detailed Explanation on VPS Deployment
+
+```console
+root@linux~ $ git clone https://github.com/darkphoenix2601/M.V._PLAYER
+root@linux~ $ cd M.V._PLAYER
+root@linux~ $ pip3 install -U -r requirements.txt
+root@linux~ $ cp example.env .env
+```
+> Edit .env with your own values and then start bot with
+```console
+root@linux~ $ python3 main.py
 ```
 
-### Support & Updates 🎑
-<a href="https://t.me/Darkphoenix_Support"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Miss_Akshi_updates"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</details>
+
+## Config Vars
+- Checkout all [Available Vars](https://levina.gitbook.io/videostreambot/vars/available-vars)
+- Checkout the [Vars Information](https://levina.gitbook.io/videostreambot/vars/vars-information)
+- Checkout some [Configs](https://levina.gitbook.io/videostreambot/setup-config/config)
+
+## Contact & Support
+
+<a href="https://t.me/MVPLAYERSupportGroup"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a><br>
+<a href="https://t.me/levinachannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a><br>
+<a href="https://t.me/dlwrml"><img src="https://img.shields.io/badge/Contact-Repo%20Owner-blue.svg?style=for-the-badge&logo=Telegram"></a>
+
+## License
+
+Distributed under the [GNU General Public License v3.0 License](https://github.com/levina-lab/video-stream/blob/main/LICENSE) See `LICENSE.md` for more information.
